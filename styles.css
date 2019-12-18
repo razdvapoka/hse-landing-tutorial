@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'IDEOLOGY';
+    src: url('assets/fonts/IDEOLOGY-Regular.woff2') format('woff2'),
+        url('assets/fonts/IDEOLOGY-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IDEOLOGY Expanded';
+    src: url('assets/fonts/IDEOLOGY-ExpandedBold.woff2') format('woff2'),
+        url('assets/fonts/IDEOLOGY-ExpandedBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+html {
+  hyphens: auto;
+}
+
+blockquote {
+  font-family: 'Lakki Reddy', cursive;
+}
+
+p {
+  font-family: 'IDEOLOGY', sans-serif;
+  font-size: 40px;
+  line-height: 1.125;
+}
+
+h1 {
+  font-family: 'IDEOLOGY Expanded', sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 85px;
+}
